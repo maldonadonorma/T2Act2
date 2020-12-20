@@ -1,0 +1,111 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="stylesheets/style.css">
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+
+        <ul class="nav navbar-nav">
+            <li><a href="/">Inicio</a></li>
+            <li class="active"><a href="/main">Actividades casa</a></li>
+            <li><a href="/producto/agregar">Catalogo</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1 class="titulo2">¿Quién realiza cada actividad?</h1>
+
+
+    <table class="table" style="width:80%; text-align: center;">
+        <tr>
+            <td style="width:50%;">
+
+                <form id="primero" action="/actividades" method="GET">
+                    <h2>Seleccione la actividad:</h2>
+
+                    <div> Cuidar a los niños </div>
+                    <label for="rada"> hombre </label>
+                    <input type="radio" id="rada" name="r1" value="hombre">
+                    <label for="radb"> mujer </label>
+                    <input type="radio" id="radb" name="r1" value="mujer">
+
+                    <div> Planchar </div>
+                    <label for="radc"> hombre </label>
+                    <input type="radio" id="radc" name="r2" value="hombre">
+                    <label for="radd"> mujer </label>
+                    <input type="radio" id="radd" name="r2" value="mujer">
+
+                    <div> Cocinar </div>
+                    <label for="rade"> hombre </label>
+                    <input type="radio" id="rade" name="r3" value="hombre">
+                    <label for="radf"> mujer </label><input type="radio" id="radf" name="r3" value="mujer">
+
+
+                    <div> Reparar la casa </div>
+                    <label for="radg"> hombre </label>
+                    <input type="radio" id="radg" name="r4" value="hombre">
+                    <label for="radh"> mujer </label><input type="radio" id="radh" name="r4" value="mujer">
+
+
+                    <div> Lavar </div>
+                    <label for="radi"> hombre </label>
+                    <input type="radio" id="radi" name="r5" value="hombre">
+                    <label for="radj"> mujer </label>
+                    <input type="radio" id="radj" name="r5" value="mujer">
+
+                    <div><button type="submit">Enviar</button></div>
+                </form>
+
+            </td>
+
+            <td>
+                <form id="segundo" action="/actividades" method="POST">
+                    <h2>Seleccione la actividad:</h2>
+
+                    <div> Cuidar a los niños </div>
+                    <label for="rada"> hombre </label>
+                    <input type="radio" id="rada" name="r1" value="hombre">
+                    <label for="radb"> mujer </label>
+                    <input type="radio" id="radb" name="r1" value="mujer">
+
+                    <div> Planchar </div>
+                    <label for="radc"> hombre </label>
+                    <input type="radio" id="radc" name="r2" value="hombre">
+                    <label for="radd"> mujer </label>
+                    <input type="radio" id="radd" name="r2" value="mujer">
+
+                    <div> Cocinar </div>
+                    <label for="rade"> hombre </label>
+                    <input type="radio" id="rade" name="r3" value="hombre">
+                    <label for="radf"> mujer </label>
+                    <input type="radio" id="radf" name="r3" value="mujer">
+
+                    <div> Reparar la casa </div>
+                    <label for="radg"> hombre </label>
+                    <input type="radio" id="radg" name="r4" value="hombre">
+                    <label for="radh"> mujer </label>
+                    <input type="radio" id="radh" name="r4" value="mujer">
+
+                    <div> Lavar </div>
+                    <label for="radi"> hombre </label>
+                    <input type="radio" id="radi" name="r5" value="hombre">
+</div><label for="radj"> mujer </label>
+<input type="radio" id="radj" name="r5" value="mujer">
+
+<div><button type="submit">Enviar</button></div>
+</form>
+
+</td>
+</tr>
+<!--<tr>
+        <td colspan="2">
+            <div><button type="button" onclick="enviar();">Enviar</button></div>
+        </td>
+    </tr>-->
+</table>
+</div>
+
+
+<script src="javascripts/general.js"></script>

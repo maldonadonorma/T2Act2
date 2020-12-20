@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+  text-rendering: optimizelegibility;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+a {
+  color: #333333;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 600;
+  text-align: center;
+}
+
+.navbar-inverse {
+  background-image: linear-gradient(
+    to right top,
+    #f6ac39,
+    #f49c2c,
+    #f18b21,
+    #ee7a18,
+    #eb6712
+  );
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+ 
+ 
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color:#168124;
+}
+
+.cover-index {
+  background-image: url("../images/header1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 550px;
+}
+
+.titular {
+  text-decoration: underline #f27121;
+  color: #168124;
+  font-family: "Sansita Swashed", cursive;
+  font-weight: 600;
+  max-width: 500px;
+  margin:auto;
+  text-align: center;
+  margin-top: 10%;
+ 
+  padding: 20px 30px 30px 30px;
+}
+
+.row-1 {
+  background-color: #168124;
+  padding: 100px;
+}
+
+
+
+.titulo {
+  font-family: "Sansita Swashed", cursive;
+ font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.titulo2 {
+  font-family: "Sansita Swashed", cursive;
+  text-align: center;
+  color: #f27121;
+}
+
+
+
+.row-pie {
+  background-color: #f27121;
+}
+
+.xs-text {
+  text-align: center;
+  color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 1em;
+}
+
+.Do{
+  background-color: #168124;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 50px;
+  color: #fff;
+}
+.Do:hover,
+.Do:focus {
+  opacity: 0.5;
+  outline: 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+.container{
+  margin-top: 20px;
+
+}
+
+.Do2{
+  background-color:  #f27121;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 50px;
+  color: #fff;
+ 
+}
+.Do2:hover,
+.Do2:focus {
+  opacity: 0.5;
+  outline: 0;
+  color: #ffffff;
+  text-decoration: none;
+}
+

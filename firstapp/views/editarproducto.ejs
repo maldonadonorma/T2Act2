@@ -1,0 +1,46 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../../stylesheets/style.css">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <ul class="nav navbar-nav">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="/main">Actividades casa</a></li>
+      <li class="active"><a href="/producto">Catalogo</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1 class="titulo2">Editar producto</h1>
+  <p>Edita los campos que deseas actualizar</p>
+  <br>
+  <form name="formulario" id="formulario" method="GET" action="/producto">
+    <label> Nombre del producto <input type="text" name="nombre" id="nombre" /> </label>
+    <label>
+      Descripción <input type="text" name="descripcion" id="descripcion" />
+    </label>
+    <label>
+      Precio <input type="text" name="precio" id="precio" maxlength="6" />
+    </label>
+    <input type="hidden" name="id" id="id" maxlength="6" value="" />
+    <button type="button" onclick="editardatos();">Enviar</button>
+  </form>
+  <br>
+
+  <a class="Do" href="/producto">Ver listado de producto</a>
+
+</div>
+
+
+
+
+
+
+<script src="../../javascripts/general.js"></script>
+<script>
+  obtenerdatos(<%= idProducto %>);
+</script>

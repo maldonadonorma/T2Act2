@@ -1,0 +1,42 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="../stylesheets/style.css">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+
+    <ul class="nav navbar-nav">
+      <li><a href="/">Inicio</a></li>
+      <li><a href="/main">Actividades casa</a></li>
+      <li class="active"><a href="/producto/agregar">Catalogo</a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+  <h1 class="titulo2">Agregar productos</h1><br>
+
+
+
+  <form name="formulario" id="formulario" method="POST" action="/producto">
+    <label> Nombre del producto <input type="text" name="nombre" id="nombre" /> </label>
+    <label>
+      Descripción <input type="text" name="descripcion" id="descripcion" />
+    </label>
+    <label>
+      Precio <input type="text" name="precio" id="precio" maxlength="6" />
+    </label>
+    <button type="submit">Enviar</button>
+  </form>
+  <br>
+
+  <a class="Do" href="/producto">Ver lista de productos</a>
+
+
+
+
+
+
+</div>
